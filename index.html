@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maurício Siqueira Jr - Desenvolvedor Full Stack | Java, Spring Boot, Angular</title>
+    <meta name="description" content="Desenvolvedor Full Stack freelancer com 4+ anos de experiência em Java, Spring Boot, Angular e Node.js. Especialista em soluções para microcervejarias e sistemas corporativos. Disponível para projetos.">
+    <meta name="keywords" content="desenvolvedor full stack, programador java, spring boot, angular, nodejs, freelancer brasil, desenvolvedor freelancer, microcervejarias, sistemas web, api rest, mauricio siqueira">
+    <meta name="author" content="Maurício Siqueira Jr">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="pt-BR">
+    <meta name="geo.region" content="BR">
+    <meta name="geo.country" content="Brazil">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mauriciosiqueira.dev">
+    <meta property="og:title" content="Maurício Siqueira Jr - Desenvolvedor Full Stack">
+    <meta property="og:description" content="Desenvolvedor Full Stack especializado em Java, Spring Boot, Angular e Node.js. 4+ anos de experiência criando soluções inovadoras.">
+    <meta property="og:image" content="https://mauriciosiqueira.dev/public/mauricio.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://mauriciosiqueira.dev">
+    <meta name="twitter:title" content="Maurício Siqueira Jr - Desenvolvedor Full Stack">
+    <meta name="twitter:description" content="Desenvolvedor Full Stack especializado em Java, Spring Boot, Angular e Node.js. 4+ anos de experiência criando soluções inovadoras.">
+    <meta name="twitter:image" content="https://mauriciosiqueira.dev/public/mauricio.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mauriciosiqueira.dev">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="favicon-16.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.svg">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Maurício Siqueira Jr",
+      "jobTitle": "Desenvolvedor Full Stack",
+      "description": "Desenvolvedor Full Stack freelancer especializado em Java, Spring Boot, Angular e Node.js com 4+ anos de experiência.",
+      "url": "https://mauriciosiqueira.dev",
+      "image": "https://mauriciosiqueira.dev/public/mauricio.png",
+      "email": "contato@mauriciosiqueira.dev",
+      "telephone": "+55-11-99999-9999",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR",
+        "addressRegion": "Brasil"
+      },
+      "sameAs": [
+        "https://linkedin.com/in/mauricio-siqueira",
+        "https://github.com/mauriciosiqueira"
+      ],
+      "knowsAbout": [
+        "Java",
+        "Spring Boot",
+        "Angular",
+        "Node.js",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "AWS",
+        "DevOps",
+        "Microservices",
+        "REST API",
+        "Full Stack Development",
+        "Software Engineering"
+      ],
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Desenvolvedor Full Stack",
+        "description": "Desenvolvimento de aplicações web completas usando tecnologias modernas",
+        "skills": "Java, Spring Boot, Angular, Node.js, AWS, DevOps"
+      },
+      "workExample": [
+        {
+          "@type": "CreativeWork",
+          "name": "Sistema de Delivery",
+          "description": "Aplicativo completo de delivery com painel administrativo e integração de pagamentos",
+          "programmingLanguage": ["Java", "Angular", "Spring Boot"]
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Sistema de Gestão para Barbearia",
+          "description": "Sistema completo de agendamento e gestão para salões de beleza",
+          "programmingLanguage": ["Angular", "Node.js", "MongoDB"]
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Sistema de Rastreamento de Ativos",
+          "description": "Plataforma de monitoramento e controle de ativos empresariais",
+          "programmingLanguage": ["Java", "Spring Boot", "PostgreSQL"]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="dark-mode">
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <span class="logo-letter">M</span>
+                <span class="logo-letter">S</span>
+            </div>
+            <div class="loading-text">Carregando Portfólio...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+        <div class="loading-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Maurício Siqueira Jr</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experiência</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contato</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-with-particles">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-info">
+                    <h1 class="hero-title">
+                        Olá, eu sou <span class="highlight glow-text">Maurício</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        <span id="typing-text"></span>
+                        <span class="typing-cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Especialista em Java, Spring Boot, Angular e Node.js. 
+                        Criando soluções inovadoras e escaláveis com foco na melhor experiência do usuário.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://wa.me/5535998282622?text=Olá%20Maurício!%20Vi%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." class="btn btn-primary" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Entre em Contato
+                        </a>
+                        <a href="#about" class="btn btn-secondary">
+                            <i class="fas fa-user"></i>
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-avatar floating">
+                        <img src="public/mauricio.png" alt="Maurício Siqueira Jr" class="avatar-photo magnetic" />
+                        <div class="avatar-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-indicator parallax-element" data-speed="0.3">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-with-particles geometric-bg">
+        <div class="geometric-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle parallax-element" data-speed="0.2">Conheça mais sobre mim</span>
+                <h2 class="section-title gradient-text">Sobre Mim</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Profissional de TI com um perfil adaptável às demandas do mercado. 
+                        Atuação no backend com <strong>Java (principalmente Spring Boot)</strong> e <strong>Node.js</strong>, 
+                        e no frontend com <strong>Angular</strong> e <strong>Next.js</strong>.
+                    </p>
+                    <p class="about-description">
+                        Possuo experiência consolidada na criação de soluções personalizadas, 
+                        desde a concepção de interfaces com HTML/CSS até a integração de sistemas complexos. 
+                        Sólida atuação em desenvolvimento de soluções internas, aplicativos mobile e 
+                        liderança de projetos, com foco na otimização de processos operacionais.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3 class="counter" data-count="4">0</h3>
+                            <p>Anos de Experiência</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-count="12">0</h3>
+                            <p>Projetos Concluídos</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="counter" data-count="100">0</h3>
+                            <p>Dedicação</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info">
+                    <div class="info-card">
+                        <h3>Objetivo Profissional</h3>
+                        <p>Desenvolvedor Fullstack (Java e Angular)</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Localização</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Itajubá - MG</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Formação</h3>
+                        <p>Tecnólogo em Análise e Desenvolvimento de Sistema</p>
+                        <small>Cruzeiro do Sul Virtual | 2022-2025</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Minha jornada profissional</span>
+                <h2 class="section-title">Experiência</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2023 - Atual</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-company">
+                            <h3>Divtech+</h3>
+                            <span class="position">Desenvolvedor Full Stack - Freelancer</span>
+                        </div>
+                        <p class="timeline-description">
+                            Desenvolvo aplicações full stack, com foco em microcervejarias, utilizando 
+                            tecnologias como Java, Spring Boot, Angular e Node.js. Lidero o planejamento 
+                            e a implementação de projetos, desde a concepção até a entrega, criando 
+                            soluções escaláveis e seguras.
+                        </p>
+                        <div class="timeline-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">DevOps</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span>2019 - Atual</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-company">
+                            <h3>Musa Agroindustrial LTDA</h3>
+                            <span class="position">Assistente de TI</span>
+                        </div>
+                        <p class="timeline-description">
+                            Atuo no desenvolvimento e manutenção de soluções internas, utilizando Angular 
+                            e Spring Boot, que otimizam processos e melhoram a experiência do usuário. 
+                            Responsável pela integração de microserviços, implementação de pipelines de 
+                            CI/CD e deployment de aplicações na AWS.
+                        </p>
+                        <div class="timeline-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">CI/CD</span>
+                            <span class="tech-tag">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Minhas especialidades</span>
+                <h2 class="section-title">Habilidades & Competências</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Linguagens & Frameworks</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Spring Boot</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Angular</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Next.js</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>DevOps & Cloud</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CI/CD</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3>Metodologias & Ferramentas</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Agile (Scrum/Kanban)</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">APIs RESTful</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Microserviços</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">UX Design</span>
+                            <div class="skill-level">
+                                <div class="skill-progress" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Meus trabalhos em destaque</span>
+                <h2 class="section-title gradient-text neon-glow">Projetos</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-project="microcervejaria">
+                    <div class="project-image">
+                        <img src="public/delivery.png" alt="APP Delivery" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link project-details-btn" title="Ver Detalhes">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">APP Delivery - Sistema de Delivery de Cervejaria</h3>
+                        <p class="project-description">
+                            Plataforma completa de delivery desenvolvida especificamente para cervejarias com Next.js 14. 
+                            Sistema moderno com gestão de pedidos, autenticação JWT e regras específicas de entrega por região.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js 14</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Prisma</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="agroindustrial">
+                    <div class="project-image">
+                        <img src="public/barbeiro.png" alt="Dom da Navalha" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link project-details-btn" title="Ver Detalhes">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dom da Navalha - Sistema de Agendamento</h3>
+                        <p class="project-description">
+                            Sistema completo de agendamento para barbearia com gestão administrativa. 
+                            Interface elegante, validação inteligente de horários e diferentes níveis de acesso.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js 14</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Prisma</span>
+                            <span class="tech-tag">NextAuth.js</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="mobile-app">
+                    <div class="project-image">
+                        <img src="public/ativos.png" alt="AtivoTrack" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link project-details-btn" title="Ver Detalhes">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AtivoTrack - Sistema de Gestão de Ativos PWA</h3>
+                        <p class="project-description">
+                            Sistema PWA moderno para gestão e rastreamento de ativos empresariais. 
+                            QR Codes, funcionalidade offline e suporte multi-estabelecimento.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js 15</span>
+                            <span class="tech-tag">PWA</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">QR Scanner</span>
+                            <span class="tech-tag">Prisma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="dashboard">
+                    <div class="project-image">
+                        <img src="public/ControleBarril.png" alt="APP Barril Light" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link project-details-btn" title="Ver Detalhes">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">APP Barril Light - Gestão de Barris e Chopes</h3>
+                        <p class="project-description">
+                            Sistema moderno para controle de barris, chopes, clientes e usuários. 
+                            PWA otimizada para bares, distribuidoras e eventos.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">PWA</span>
+                            <span class="tech-tag">Prisma ORM</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="cloud-architecture">
+                    <div class="project-image">
+                        <img src="public/pedidos.png" alt="Sistema Musagro" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link project-details-btn" title="Ver Detalhes">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Gestão de Pedidos Musagro</h3>
+                        <p class="project-description">
+                            Sistema completo de gestão de pedidos com controle de clientes, produtos e módulo especializado para chopp. 
+                            Preços personalizados e interface responsiva.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js 14</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">Prisma ORM</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Shadcn/UI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-project="langchain-automation">
+                    <div class="project-image">
+                        <img src="public/API.png" alt="API Cervejaria" />
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <button class="project-link project-details-btn" title="Ver Detalhes">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                                <a href="#" class="project-link" title="Ver Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver Código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">API Cervejaria - Sistema Backend Completo</h3>
+                        <p class="project-description">
+                            API REST robusta para gerenciamento completo de cervejaria com controle de produção, 
+                            pedidos, clientes e estoque. Arquitetura enterprise em Java Spring Boot.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java 17</span>
+                            <span class="tech-tag">Spring Boot 3</span>
+                            <span class="tech-tag">Spring Data JPA</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Maven</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-cta">
+                <p class="cta-text">Interessado em ver mais projetos ou discutir uma colaboração?</p>
+                <a href="https://wa.me/5535998282622?text=Olá%20Maurício!%20Vi%20seus%20projetos%20e%20gostaria%20de%20discutir%20uma%20colaboração." class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Vamos Conversar
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Vamos trabalhar juntos</span>
+                <h2 class="section-title">Entre em Contato</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>juninhosiqueira5678@gmail.com</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5535998282622?text=Olá%20Maurício!%20Encontrei%20seu%20contato%20no%20seu%20portfólio." class="contact-item" target="_blank" style="text-decoration: none; color: inherit;">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>(35) 99828-2622</p>
+                        </div>
+                    </a>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localização</h3>
+                            <p>Itajubá - MG</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/mauricioasiqueirajunior/</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Maurício Siqueira Jr. Todos os direitos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:juninhosiqueira5678@gmail.com" class="footer-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/mauricioasiqueirajunior/" target="_blank" class="footer-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/5535998282622?text=Olá%20Maurício!%20Encontrei%20seu%20contato%20no%20seu%20portfólio." target="_blank" class="footer-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-project-image">
+                    <div id="modalIcon"></div>
+                </div>
+                <div class="modal-project-info">
+                    <div class="modal-tech-stack">
+                        <h3>Tecnologias Utilizadas</h3>
+                        <div id="modalTechStack"></div>
+                    </div>
+                    <div class="modal-description">
+                        <h3>Sobre o Projeto</h3>
+                        <div id="modalDescription"></div>
+                    </div>
+                    <div class="modal-features">
+                        <h3>Principais Funcionalidades</h3>
+                        <ul id="modalFeatures"></ul>
+                    </div>
+                    <div class="modal-challenges">
+                        <h3>Desafios e Soluções</h3>
+                        <div id="modalChallenges"></div>
+                    </div>
+                    <div class="modal-results">
+                        <h3>Resultados</h3>
+                        <div id="modalResults"></div>
+                    </div>
+                    <div class="modal-links">
+                        <a href="#" id="modalDemoLink" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Ver Demo
+                        </a>
+                        <a href="#" id="modalGithubLink" class="btn btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Ver Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

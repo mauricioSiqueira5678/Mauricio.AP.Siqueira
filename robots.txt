@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mauriciosiqueira.dev/sitemap.xml
+
+# Arquivos permitidos
+Allow: /public/
+Allow: /favicon.svg
+Allow: /favicon-16.svg
+Allow: /styles.css
+Allow: /script.js
+
+# SEO friendly
+Crawl-delay: 1
