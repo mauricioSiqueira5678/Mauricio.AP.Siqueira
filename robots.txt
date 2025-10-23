@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://mauriciosiqueira.dev/sitemap.xml
+Sitemap: https://mauriciosiqueira5678.github.io/Mauricio.AP.Siqueira/sitemap.xml
 
 # Arquivos permitidos
 Allow: /public/
